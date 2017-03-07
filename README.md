@@ -1,11 +1,17 @@
 # pi-simple-trafficlights
 Simple Traffic light controller written in Python 3 for the Raspberry Pi
 
-The program uses the following BCM pins:
+The program uses the following physical pins:
 
-- Red LED: 13
-- Yellow LED: 19
-- Green LED: 26
-- Button: 22
+Traffic Lights:
+- Red LED: 35
+- Yellow LED: 33
+- Green LED: 37
 
-The program waits for a button press and then cycles the traffic lights
+Padestrian Light:
+- Green LED: 38
+
+Padestrian button:
+- Button: 11
+
+The program waits for a button press and then cycles the traffic lights including turning on and the flashing the green padestrian indicator (I ran out of jumper wires to add the red padestrian light!) 
