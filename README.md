@@ -1,8 +1,11 @@
 # pi-simple-trafficlights
 Simple Traffic light controller written in Python 3 for the Raspberry Pi
 
-The setup has following LEDs and pins:
+The program uses the following BCM pins:
 
-Red - physical pin 13
-Yellow - physical pin 19
-Green - physical pin 26
+- Red LED: 13
+- Yellow LED: 19
+- Green LED: 26
+- Button: 22
+
+The program waits for a button press and then cycles the traffic lights
